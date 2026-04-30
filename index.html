@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Kumar | SDET</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Cursor follower -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">AK<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal-up">Hello, I'm</p>
+      <h1 class="hero-name reveal-up">
+        <span class="name-line">Abhishek</span>
+        <span class="name-line outline">Kumar</span>
+      </h1>
+      <div class="hero-role reveal-up">
+        <span class="role-tag">Software Development Engineer in Test</span>
+      </div>
+      <p class="hero-tagline reveal-up">
+        I build robust testing frameworks and ensure software quality through automation, precision, and relentless attention to detail.
+      </p>
+      <div class="hero-cta reveal-up">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="scroll-indicator reveal-up">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number reveal-up">01</span>
+        <h2 class="section-title reveal-up">About Me</h2>
+        <div class="section-line reveal-up"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="reveal-up">
+            I'm an SDET passionate about building scalable test automation solutions and ensuring software reliability. With a strong foundation in both development and testing, I bridge the gap between quality assurance and software engineering.
+          </p>
+          <p class="reveal-up">
+            My approach combines deep technical expertise with a quality-first mindset. I design test strategies that catch bugs before they reach production, build CI/CD pipelines that ensure continuous quality, and develop tools that make testing efficient and enjoyable.
+          </p>
+          <p class="reveal-up">
+            When I'm not writing test scripts, you'll find me exploring new testing frameworks, contributing to open-source projects, and staying updated with the latest in software quality engineering.
+          </p>
+        </div>
+        <div class="about-stats reveal-up">
+          <div class="stat-card">
+            <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">Quality Focused</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="50">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Test Suites Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number" data-count="1000">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Bugs Caught</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number reveal-up">02</span>
+        <h2 class="section-title reveal-up">Skills</h2>
+        <div class="section-line reveal-up"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal-up">
+          <h3 class="skill-category-title">Testing & Automation</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Selenium</span>
+            <span class="skill-tag">Cypress</span>
+            <span class="skill-tag">Playwright</span>
+            <span class="skill-tag">Appium</span>
+            <span class="skill-tag">TestNG</span>
+            <span class="skill-tag">JUnit</span>
+            <span class="skill-tag">Cucumber</span>
+            <span class="skill-tag">REST Assured</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up">
+          <h3 class="skill-category-title">Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Shell Scripting</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up">
+          <h3 class="skill-category-title">CI/CD & DevOps</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Jenkins</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Maven</span>
+            <span class="skill-tag">Gradle</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up">
+          <h3 class="skill-category-title">Tools & Frameworks</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">JIRA</span>
+            <span class="skill-tag">Allure Reports</span>
+            <span class="skill-tag">BrowserStack</span>
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Grafana</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number reveal-up">03</span>
+        <h2 class="section-title reveal-up">Experience</h2>
+        <div class="section-line reveal-up"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 — Present</span>
+            <h3 class="timeline-title">Software Development Engineer in Test</h3>
+            <p class="timeline-company">Company Name</p>
+            <ul class="timeline-details">
+              <li>Designed and maintained end-to-end test automation frameworks using Selenium and Playwright</li>
+              <li>Integrated automated test suites into CI/CD pipelines, reducing release cycle time by 40%</li>
+              <li>Implemented API testing strategies using REST Assured and Postman</li>
+              <li>Mentored junior QA engineers on best practices in test automation</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2021 — 2023</span>
+            <h3 class="timeline-title">QA Automation Engineer</h3>
+            <p class="timeline-company">Company Name</p>
+            <ul class="timeline-details">
+              <li>Built automation frameworks from scratch using Java and TestNG</li>
+              <li>Developed data-driven and keyword-driven testing approaches</li>
+              <li>Conducted performance testing using JMeter and Gatling</li>
+              <li>Collaborated with development teams to shift testing left in the SDLC</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section section-dark" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number reveal-up">04</span>
+        <h2 class="section-title reveal-up">Projects</h2>
+        <div class="section-line reveal-up"></div>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal-up">
+          <div class="project-header">
+            <span class="project-icon">&#9670;</span>
+            <div class="project-links">
+              <a href="https://github.com/abhishek-55" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">E2E Test Automation Framework</h3>
+          <p class="project-description">A comprehensive test automation framework built with Selenium, Java, and TestNG supporting parallel execution, cross-browser testing, and detailed Allure reporting.</p>
+          <div class="project-tech">
+            <span>Java</span><span>Selenium</span><span>TestNG</span><span>Allure</span>
+          </div>
+        </article>
+        <article class="project-card reveal-up">
+          <div class="project-header">
+            <span class="project-icon">&#9670;</span>
+            <div class="project-links">
+              <a href="https://github.com/abhishek-55" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">API Testing Suite</h3>
+          <p class="project-description">Robust API test automation suite using REST Assured with data-driven approach, schema validation, and integration with CI/CD pipelines for continuous testing.</p>
+          <div class="project-tech">
+            <span>REST Assured</span><span>Java</span><span>Jenkins</span><span>Maven</span>
+          </div>
+        </article>
+        <article class="project-card reveal-up">
+          <div class="project-header">
+            <span class="project-icon">&#9670;</span>
+            <div class="project-links">
+              <a href="https://github.com/abhishek-55" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Performance Testing Dashboard</h3>
+          <p class="project-description">Custom performance monitoring dashboard integrating JMeter test results with Grafana for real-time visualization of application performance metrics.</p>
+          <div class="project-tech">
+            <span>JMeter</span><span>Grafana</span><span>Docker</span><span>Python</span>
+          </div>
+        </article>
+        <article class="project-card reveal-up">
+          <div class="project-header">
+            <span class="project-icon">&#9670;</span>
+            <div class="project-links">
+              <a href="https://github.com/abhishek-55" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">BDD Cucumber Framework</h3>
+          <p class="project-description">Behavior-driven development framework using Cucumber with Gherkin syntax, enabling non-technical stakeholders to write and understand test scenarios easily.</p>
+          <div class="project-tech">
+            <span>Cucumber</span><span>Gherkin</span><span>Java</span><span>Selenium</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number reveal-up">05</span>
+        <h2 class="section-title reveal-up">Education</h2>
+        <div class="section-line reveal-up"></div>
+      </div>
+      <div class="education-grid">
+        <div class="education-card reveal-up">
+          <div class="education-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
+          </div>
+          <span class="education-year">Year of Graduation</span>
+          <h3 class="education-degree">Bachelor of Technology</h3>
+          <p class="education-school">Computer Science & Engineering</p>
+          <p class="education-detail">University Name</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-number reveal-up">06</span>
+        <h2 class="section-title reveal-up">Contact</h2>
+        <div class="section-line reveal-up"></div>
+      </div>
+      <div class="contact-content">
+        <p class="contact-text reveal-up">
+          Interested in working together or have a question? <br />Feel free to reach out — I'd love to connect.
+        </p>
+        <a href="mailto:abhishekbt2001@gmail.com" class="btn btn-primary btn-lg reveal-up">Say Hello</a>
+        <div class="contact-links reveal-up">
+          <a href="https://github.com/abhishek-55" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/abhishek-kumar-linked" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="mailto:abhishekbt2001@gmail.com" class="contact-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & Built by <strong>Abhishek Kumar</strong></p>
+    <p class="footer-sub">&copy; 2026 — All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
